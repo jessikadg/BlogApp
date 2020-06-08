@@ -12,14 +12,14 @@ To make it run in your local machine, you will need Expo and Ngrok installed.
   
   and
   
-  BlogApp/jsonserver ~$ npm run tunnel
+2-  BlogApp/jsonserver ~$ npm run tunnel
   
   
-  The second command will provide you a temporary ngrok  link, valid for 8 hours. Copy the link.
+3 - The second command will provide you a temporary ngrok  link, valid for 8 hours. Copy the link.
   
-  Paste the link at BlogApp/src/jsonServer.js in where indicated, in the baseURL line.
+4 - Paste the link at BlogApp/src/jsonServer.js in where indicated, in the baseURL line.
   
-  After that, run npm start in the main/first folder of the project.
+5 - After that, run 'npm start' in the main/first folder of the project.
   
-  If everything goes well, you should be about to see 2 test posts on the list :)
+If everything goes well, you should be about to see 2 test posts on the list :)
 
